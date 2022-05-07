@@ -1,0 +1,133 @@
+/* set the css of all items */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    /* for every element in a website the padding and margin are included in the width and height */
+    box-sizing: border-box; 
+}
+
+body {
+    
+    /* position relative allos you to use properties left right top bottom */
+    position: relative;
+    margin: 0;
+
+}
+
+.global-container {
+    background-color: #f0f2f5;
+}
+
+#facebook-image {
+    height: 106px;
+    width: 500px;
+    
+    
+}
+
+p {
+    margin: 20px;
+}
+
+.facebook-image-div, h2 {
+    margin: 30px;
+}
+
+.facebook-image-div {
+    padding: 112px 0 16px;
+    margin: -20px;
+}
+
+.facebook-content {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    margin: 0 40px;
+    min-height: 640px;
+    padding-bottom: 112px;
+    padding-top: 72px;
+    
+    
+}
+
+.login-card-container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 396px;
+    padding-bottom: 24px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    align-items: center;
+    
+}
+
+.login-card-container > input {
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+    background: #FFFFFF;
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    height: 22px;
+    line-height: 16px;
+    margin: 6px;
+    border-radius: 6px;
+    height: auto;
+    
+}
+
+#login-button {
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 332px;
+    height: auto;
+    color: #fff;
+    font-weight: bold;
+}
+
+#new-acc-btn {
+    background-color: #42b72a;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 200px;
+    height: auto;
+    color: #fff;
+    font-weight: bold;
+}
+
+a {
+    margin: 20px 16px;
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+hr {
+    margin: 17px;
+}
+
+footer {
+    text-align: center;
+}
+
+#login-button, #new-acc-btn {
+    cursor: pointer;
+}
+
+h2 {
+    font-weight: normal;
+    font-size: 24px;
+}
